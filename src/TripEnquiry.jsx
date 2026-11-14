@@ -44,7 +44,7 @@ Phone: ${trip.phone}
 Email: ${trip.email}`
 
     window.open(
-      `https://wa.me/917651000109?text=${encodeURIComponent(message)}`,
+      `https://wa.me/919317955503?text=${encodeURIComponent(message)}`,
       '_blank'
     )
   }

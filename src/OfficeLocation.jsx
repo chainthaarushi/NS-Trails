@@ -30,8 +30,8 @@ function OfficeLocation() {
               <div className="office-item">
                 <h5>📞 Phone</h5>
                 <p>
-                  <a href="tel:+917651000109">
-                    +91 76510 00109
+                  <a href="tel:+919317955503">
+                    +91 93179 55503
                   </a>
                 </p>
               </div>
@@ -39,8 +39,31 @@ function OfficeLocation() {
               <div className="office-item">
                 <h5>✉️ Email</h5>
                 <p>
-                  <a href="mailto:Solowander114@gmail.com">
-                    Solowander114@gmail.com
+                  <a href="mailto:Nstrails77@gmail.com">
+                    Nstrails77@gmail.com
+                  </a>
+                </p>
+              </div>
+
+              <div className="office-item">
+                <h5>🌐 Follow Us</h5>
+                <p>
+                  <a
+                    href="https://www.instagram.com/nstraills/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Instagram
+                  </a>
+                </p>
+
+                <p>
+                  <a
+                    href="https://www.facebook.com/share/19tzHnojkz/?mibextid=wwXIfr"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Facebook
                   </a>
                 </p>
               </div>

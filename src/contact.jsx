@@ -29,14 +29,13 @@ Phone: ${form.phone}
 Subject: ${form.subject}
 Message: ${form.message}`
 
-    const whatsappURL = `https://wa.me/917651000109?text=${encodeURIComponent(message)}`
+    const whatsappURL = `https://wa.me/919317955503?text=${encodeURIComponent(message)}`
 
     window.open(whatsappURL, '_blank')
   }
 
   return (
     <>
-      {/* Contact Hero */}
       <section className="contact-hero">
         <div className="container">
           <p>WE ARE HERE TO HELP</p>
@@ -47,12 +46,10 @@ Message: ${form.message}`
         </div>
       </section>
 
-      {/* Contact Section */}
       <section className="contact-section" id="contact">
         <div className="container">
           <div className="row g-4">
 
-            {/* Contact Information */}
             <div className="col-lg-5">
               <div className="contact-info">
 
@@ -75,16 +72,16 @@ Message: ${form.message}`
 
                 <div className="contact-detail">
                   <h5>📞 Call / WhatsApp</h5>
-                  <p>+91 76510 00109</p>
+                  <p>+91 93179 55503</p>
 
-                  <a href="tel:+917651000109">
+                  <a href="tel:+919317955503">
                     Call Now
                   </a>
 
                   <br />
 
                   <a
-                    href="https://wa.me/917651000109"
+                    href="https://wa.me/919317955503"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -95,15 +92,38 @@ Message: ${form.message}`
                 <div className="contact-detail">
                   <h5>✉️ Email Us</h5>
 
-                  <a href="mailto:Solowander114@gmail.com">
-                    Solowander114@gmail.com
+                  <a href="mailto:Nstrails77@gmail.com">
+                    Nstrails77@gmail.com
                   </a>
+                </div>
+
+                <div className="contact-detail">
+                  <h5>🌐 Follow Us</h5>
+
+                  <p>
+                    <a
+                      href="https://www.instagram.com/nstraills/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Instagram
+                    </a>
+                  </p>
+
+                  <p>
+                    <a
+                      href="https://www.facebook.com/share/19tzHnojkz/?mibextid=wwXIfr"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Facebook
+                    </a>
+                  </p>
                 </div>
 
               </div>
             </div>
 
-            {/* Contact Form */}
             <div className="col-lg-7">
               <div className="contact-form">
 
@@ -118,7 +138,6 @@ Message: ${form.message}`
 
                     <div className="col-md-6">
                       <label>Your Name</label>
-
                       <input
                         type="text"
                         name="name"
@@ -132,7 +151,6 @@ Message: ${form.message}`
 
                     <div className="col-md-6">
                       <label>Email Address</label>
-
                       <input
                         type="email"
                         name="email"
@@ -146,7 +164,6 @@ Message: ${form.message}`
 
                     <div className="col-md-6">
                       <label>Phone Number</label>
-
                       <input
                         type="tel"
                         name="phone"
@@ -160,7 +177,6 @@ Message: ${form.message}`
 
                     <div className="col-md-6">
                       <label>Subject</label>
-
                       <input
                         type="text"
                         name="subject"
@@ -174,7 +190,6 @@ Message: ${form.message}`
 
                     <div className="col-12">
                       <label>Your Message</label>
-
                       <textarea
                         name="message"
                         className="form-control"

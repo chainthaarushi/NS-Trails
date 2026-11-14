@@ -52,26 +52,46 @@ function Footer() {
           <div className="col-lg-3 col-md-6">
             <h4>Contact Us</h4>
 
-            <p>📍 First Floor, Kotkhai, Shimla, HP</p>
+            <p>📍 First Floor, Kotkhai, Shimla, Himachal Pradesh, India</p>
 
             <p>
-              📞 <a href="tel:+917651000109">+91 76510 00109</a>
+              📞 <a href="tel:+919317955503">+91 93179 55503</a>
             </p>
 
             <p>
-              ✉️ <a href="mailto:Solowander114@gmail.com">
-                Solowander114@gmail.com
+              ✉️ <a href="mailto:Nstrails77@gmail.com">
+                Nstrails77@gmail.com
               </a>
             </p>
 
             <a
               className="footer-whatsapp"
-              href="https://wa.me/917651000109"
+              href="https://wa.me/919317955503"
               target="_blank"
               rel="noreferrer"
             >
               Chat on WhatsApp
             </a>
+
+            <p>
+              <a
+                href="https://www.instagram.com/nstraills/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram
+              </a>
+            </p>
+
+            <p>
+              <a
+                href="https://www.facebook.com/share/19tzHnojkz/?mibextid=wwXIfr"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Facebook
+              </a>
+            </p>
           </div>
 
         </div>
