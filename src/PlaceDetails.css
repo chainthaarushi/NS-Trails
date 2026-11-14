@@ -1,0 +1,100 @@
+
+/* ==============================
+   PLACE PAGE FALLBACK
+============================== */
+
+.place-details {
+  padding: 80px 0;
+  background: #f7f9fc;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* ==============================
+   HEADING
+============================== */
+
+.place-details .details-label {
+  color: #e5a83b;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.place-details h1 {
+  color: #102b46;
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+/* ==============================
+   DESCRIPTION
+============================== */
+
+.place-description {
+  color: #526477;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* ==============================
+   BUTTON
+============================== */
+
+.place-enquiry-btn {
+  display: inline-block;
+  background: #e5a83b;
+  color: #102b46;
+  padding: 14px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 25px;
+  transition: all 0.3s ease;
+}
+
+.place-enquiry-btn:hover {
+  background: #102b46;
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* ==============================
+   BACK LINK
+============================== */
+
+.back-link {
+  display: inline-block;
+  color: #102b46;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.back-link:hover {
+  color: #e5a83b;
+}
+
+/* ==============================
+   MOBILE
+============================== */
+
+@media (max-width: 768px) {
+
+  .place-details {
+    padding: 50px 0;
+  }
+
+  .place-details h1 {
+    font-size: 32px;
+  }
+
+  .place-description {
+    font-size: 15px;
+  }
+}

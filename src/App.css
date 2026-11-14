@@ -1,0 +1,388 @@
+
+/* ==============================
+   GLOBAL STYLING
+============================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #172b3a;
+  overflow-x: hidden;
+}
+
+/* ==============================
+   NAVBAR
+============================== */
+
+.custom-navbar {
+  background: #102b3f;
+  padding: 18px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.brand-logo {
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: white !important;
+  transition: 0.3s;
+}
+
+.brand-logo:hover {
+  opacity: 0.85;
+}
+
+.brand-logo span {
+  color: #e5b86b;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #e5b86b !important;
+}
+
+.nav-book-btn {
+  background: #e5b86b;
+  color: #102b3f;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.nav-book-btn:hover {
+  background: white;
+  color: #102b3f;
+  transform: translateY(-2px);
+}
+
+/* ==============================
+   HERO SECTION
+============================== */
+
+.hero-section {
+  min-height: 620px;
+  background-image: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1800');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-overlay {
+  min-height: 620px;
+  background: linear-gradient(
+    90deg,
+    rgba(8, 28, 43, 0.85),
+    rgba(8, 28, 43, 0.25)
+  );
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hero-small {
+  color: #e5b86b;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+
+.hero-content h1 {
+  font-size: clamp(42px, 6vw, 68px);
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 20px 0;
+}
+
+.hero-content h1 span {
+  color: #e5b86b;
+}
+
+.hero-description {
+  max-width: 520px;
+  line-height: 1.8;
+  color: #eeeeee;
+  margin-bottom: 35px;
+}
+
+/* ==============================
+   SEARCH BOX
+============================== */
+
+.search-box {
+  background: white;
+  border-radius: 12px;
+  padding: 18px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  max-width: 1000px;
+  color: #172b3a;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+}
+
+.search-field {
+  flex: 1;
+  min-width: 0;
+}
+
+.search-field label {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.search-field input,
+.search-field select {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #555;
+  font-size: 14px;
+  background: white;
+}
+
+.search-field input:focus,
+.search-field select:focus {
+  color: #102b3f;
+}
+
+.search-button {
+  background: #e5b86b;
+  border: none;
+  padding: 15px 22px;
+  border-radius: 7px;
+  font-weight: 700;
+  color: #102b3f;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-button:hover {
+  background: #d4a451;
+  transform: translateY(-2px);
+}
+
+/* ==============================
+   DESTINATIONS SECTION
+============================== */
+
+.destinations-section {
+  padding: 85px 0;
+  background: #f7f9fc;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.section-heading p,
+.about-section > .container > p:first-child {
+  color: #bd8b40;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.section-heading h2,
+.about-section h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin: 12px 0;
+  color: #102b3f;
+}
+
+.section-heading span {
+  color: #6b7280;
+}
+
+/* ==============================
+   DESTINATION CARDS
+============================== */
+
+.destination-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.destination-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.13);
+}
+
+.destination-card img {
+  width: 100%;
+  height: 235px;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+.destination-card:hover img {
+  transform: scale(1.04);
+}
+
+.destination-info {
+  padding: 20px;
+}
+
+.destination-info p {
+  color: #89939e;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+
+.destination-info h3 {
+  font-size: 23px;
+  font-weight: 700;
+  color: #102b3f;
+  margin-bottom: 18px;
+}
+
+.destination-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.destination-bottom span {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.destination-bottom a {
+  color: #bd8b40;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.destination-bottom a:hover {
+  color: #102b3f;
+}
+
+.no-results {
+  text-align: center;
+  padding: 30px;
+  color: #6b7280;
+}
+
+/* ==============================
+   ABOUT SECTION
+============================== */
+
+.about-section {
+  padding: 75px 0;
+  background: white;
+}
+
+.about-section .container > p:last-child {
+  color: #6b7280;
+  margin-top: 15px;
+  line-height: 1.8;
+}
+
+/* ==============================
+   FOOTER
+============================== */
+
+.footer-section {
+  background: #102b3f;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer-section h3 {
+  color: #e5b86b;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.footer-section p {
+  color: #d1d5db;
+  margin-top: 12px;
+}
+
+/* ==============================
+   FOCUS ACCESSIBILITY
+============================== */
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid #bd8b40;
+  outline-offset: 3px;
+}
+
+/* ==============================
+   MOBILE RESPONSIVE
+============================== */
+
+@media (max-width: 768px) {
+
+  .hero-section,
+  .hero-overlay {
+    min-height: 750px;
+  }
+
+  .search-box {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-field {
+    padding: 8px 0;
+  }
+
+  .section-heading h2,
+  .about-section h2 {
+    font-size: 28px;
+  }
+
+  .destination-card img {
+    height: 220px;
+  }
+
+  .navbar-nav {
+    padding-top: 15px;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 0;
+  }
+
+  .nav-book-btn {
+    display: inline-block;
+    margin-top: 8px;
+  }
+}

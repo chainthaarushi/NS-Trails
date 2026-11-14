@@ -1,0 +1,145 @@
+
+/* ==============================
+   MAIN FOOTER
+============================== */
+
+.main-footer {
+  background: #0b2035;
+  color: white;
+  padding: 65px 0 20px;
+}
+
+/* ==============================
+   BRAND
+============================== */
+
+.footer-logo {
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.footer-logo span {
+  color: #e5a83b;
+}
+
+.footer-about {
+  color: #c2ceda;
+  line-height: 1.8;
+  max-width: 330px;
+  font-size: 15px;
+}
+
+/* ==============================
+   FOOTER HEADINGS
+============================== */
+
+.main-footer h4 {
+  color: #e5a83b;
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+/* ==============================
+   FOOTER LINKS
+============================== */
+
+.main-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-footer ul li {
+  margin-bottom: 13px;
+}
+
+.main-footer a {
+  color: #c2ceda;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.main-footer ul a:hover {
+  color: #e5a83b;
+  padding-left: 5px;
+}
+
+/* ==============================
+   FOOTER PARAGRAPHS
+============================== */
+
+.main-footer p {
+  color: #c2ceda;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+/* ==============================
+   WHATSAPP BUTTON
+============================== */
+
+.footer-whatsapp {
+  display: inline-block;
+  background: #e5a83b;
+  color: #0b2035 !important;
+  padding: 11px 18px;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-top: 8px;
+  transition: all 0.3s ease;
+}
+
+.footer-whatsapp:hover {
+  background: white;
+  color: #0b2035 !important;
+  transform: translateY(-3px);
+}
+
+/* ==============================
+   FOOTER BOTTOM
+============================== */
+
+.footer-bottom {
+  border-top: 1px solid #34475a;
+  margin-top: 45px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* ==============================
+   TABLET & MOBILE
+============================== */
+
+@media (max-width: 768px) {
+
+  .main-footer {
+    padding: 45px 0 20px;
+  }
+
+  .footer-logo {
+    font-size: 27px;
+  }
+
+  .main-footer h4 {
+    margin-bottom: 15px;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    flex-direction: column;
+    gap: 8px;
+  }
+}

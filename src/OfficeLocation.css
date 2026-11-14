@@ -1,0 +1,159 @@
+
+/* ==============================
+   OFFICE LOCATION SECTION
+============================== */
+
+.office-location-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+/* ==============================
+   SECTION HEADING
+============================== */
+
+.location-heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.location-heading p {
+  color: #e5a83b;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.location-heading h2 {
+  color: #102b46;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 12px 0;
+}
+
+.location-heading span {
+  color: #687789;
+}
+
+/* ==============================
+   OFFICE DETAILS CARD
+============================== */
+
+.office-details {
+  background: #102b46;
+  color: white;
+  padding: 35px 28px;
+  border-radius: 12px;
+  height: 100%;
+  box-shadow: 0 8px 25px rgba(16, 43, 70, 0.12);
+}
+
+.office-details h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #e5a83b;
+}
+
+/* ==============================
+   OFFICE INFORMATION
+============================== */
+
+.office-item {
+  margin-bottom: 25px;
+}
+
+.office-item h5 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.office-item p {
+  color: #d3dce6;
+  line-height: 1.7;
+  margin-bottom: 0;
+  overflow-wrap: anywhere;
+}
+
+.office-item a {
+  color: #d3dce6;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.office-item a:hover {
+  color: #e5a83b;
+}
+
+/* ==============================
+   DIRECTIONS BUTTON
+============================== */
+
+.map-direction-btn {
+  display: inline-block;
+  background: #e5a83b;
+  color: #102b46;
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.map-direction-btn:hover {
+  background: white;
+  color: #102b46;
+  transform: translateY(-3px);
+}
+
+/* ==============================
+   GOOGLE MAP
+============================== */
+
+.office-map {
+  height: 100%;
+  min-height: 420px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.office-map iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  border: 0;
+}
+
+/* ==============================
+   TABLET & MOBILE
+============================== */
+
+@media (max-width: 768px) {
+
+  .office-location-section {
+    padding: 50px 0;
+  }
+
+  .location-heading {
+    margin-bottom: 30px;
+  }
+
+  .location-heading h2 {
+    font-size: 28px;
+  }
+
+  .office-details {
+    padding: 28px 22px;
+  }
+
+  .office-map {
+    min-height: 320px;
+  }
+
+  .office-map iframe {
+    min-height: 320px;
+  }
+}

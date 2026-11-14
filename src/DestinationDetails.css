@@ -1,0 +1,379 @@
+
+/* ==============================
+   MAIN PACKAGE PAGE
+============================== */
+
+.package-page {
+  background: #f7f9fc;
+  min-height: 100vh;
+  color: #102b46;
+}
+
+/* ==============================
+   NAVBAR
+============================== */
+
+.package-navbar {
+  background: #102b46;
+  padding: 18px 0;
+}
+
+.package-navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.package-logo {
+  color: white;
+  font-size: 25px;
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.package-logo:hover {
+  color: #e5a83b;
+}
+
+.package-logo span {
+  color: #e5a83b;
+}
+
+.back-home {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.back-home:hover {
+  color: #e5a83b;
+}
+
+/* ==============================
+   PACKAGE HEADER
+============================== */
+
+.package-header {
+  background: #102b46;
+  color: white;
+  padding: 55px 0;
+}
+
+.package-header p {
+  color: #d4dce5;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.package-header h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin: 15px 0;
+}
+
+/* ==============================
+   MAIN LAYOUT
+============================== */
+
+.package-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 350px;
+  gap: 35px;
+  padding-top: 45px;
+  padding-bottom: 60px;
+  align-items: start;
+}
+
+.package-left {
+  min-width: 0;
+}
+
+.package-left h2 {
+  font-size: 25px;
+  font-weight: 750;
+  margin: 35px 0 18px;
+  color: #102b46;
+}
+
+/* ==============================
+   PRICE CARD
+============================== */
+
+.package-price-card {
+  background: white;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+  border-left: 5px solid #e5a83b;
+  transition: 0.3s;
+}
+
+.package-price-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.09);
+}
+
+.package-price-card p {
+  color: #687789;
+  margin-bottom: 8px;
+}
+
+.package-price-card h2 {
+  color: #102b46;
+  font-size: 35px;
+  margin: 5px 0 10px;
+  font-weight: 800;
+}
+
+/* ==============================
+   DURATION OPTIONS
+============================== */
+
+.duration-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.duration-option {
+  background: white;
+  border: 1px solid #dce3eb;
+  border-radius: 10px;
+  padding: 18px 12px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #102b46;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.duration-option strong {
+  font-size: 14px;
+}
+
+.duration-option span {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.duration-option:hover,
+.duration-option.selected {
+  border: 2px solid #e5a83b;
+  background: #fffaf0;
+  transform: translateY(-3px);
+}
+
+/* ==============================
+   PLACES
+============================== */
+
+.package-places {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.package-place {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #e5eaf0;
+  color: #526477;
+  transition: 0.3s;
+}
+
+.package-place:hover {
+  border-color: #e5a83b;
+  transform: translateY(-2px);
+}
+
+/* ==============================
+   PACKAGE INCLUSIONS
+============================== */
+
+.package-inclusions {
+  background: white;
+  padding: 22px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.package-inclusions p {
+  margin: 0;
+  color: #526477;
+  line-height: 1.7;
+}
+
+/* ==============================
+   PACKAGE OVERVIEW
+============================== */
+
+.package-overview {
+  background: white;
+  padding: 22px;
+  border-radius: 10px;
+  color: #526477;
+  line-height: 1.8;
+}
+
+/* ==============================
+   DESTINATION ROUTE
+============================== */
+
+.package-route {
+  background: white;
+  padding: 22px;
+  border-radius: 10px;
+  color: #526477;
+  line-height: 2;
+}
+
+/* ==============================
+   ENQUIRY FORM
+============================== */
+
+.package-enquiry {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 22px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 20px;
+}
+
+.package-enquiry h2 {
+  color: #102b46;
+  font-size: 25px;
+  font-weight: 750;
+  margin-bottom: 10px;
+}
+
+.package-enquiry > p {
+  color: #687789;
+  margin-bottom: 22px;
+  line-height: 1.7;
+}
+
+.package-enquiry form {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.package-enquiry label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #102b46;
+  margin-top: 8px;
+}
+
+.package-enquiry input,
+.package-enquiry select,
+.package-enquiry textarea {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #dce3eb;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+  background: white;
+  color: #26384a;
+  transition: 0.3s;
+}
+
+.package-enquiry input:focus,
+.package-enquiry select:focus,
+.package-enquiry textarea:focus {
+  border-color: #e5a83b;
+  box-shadow: 0 0 0 3px rgba(229, 168, 59, 0.12);
+}
+
+.package-enquiry textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+/* ==============================
+   ENQUIRY BUTTON
+============================== */
+
+.package-enquiry button {
+  background: #e5a83b;
+  color: #102b46;
+  border: none;
+  padding: 13px;
+  border-radius: 6px;
+  font-weight: 700;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.package-enquiry button:hover {
+  background: #102b46;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* ==============================
+   TABLET RESPONSIVE
+============================== */
+
+@media (max-width: 992px) {
+
+  .package-main {
+    grid-template-columns: 1fr;
+  }
+
+  .package-enquiry {
+    position: static;
+  }
+}
+
+/* ==============================
+   MOBILE RESPONSIVE
+============================== */
+
+@media (max-width: 600px) {
+
+  .package-header {
+    padding: 40px 0;
+  }
+
+  .package-header h1 {
+    font-size: 30px;
+  }
+
+  .duration-options {
+    grid-template-columns: 1fr;
+  }
+
+  .package-places,
+  .package-inclusions {
+    grid-template-columns: 1fr;
+  }
+
+  .package-main {
+    padding-top: 25px;
+    gap: 20px;
+  }
+
+  .package-left h2 {
+    font-size: 22px;
+  }
+
+  .package-navbar .container {
+    gap: 15px;
+  }
+
+  .package-enquiry {
+    padding: 20px;
+  }
+}

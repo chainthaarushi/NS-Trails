@@ -1,0 +1,81 @@
+
+/* ==============================
+   GLOBAL RESET
+============================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==============================
+   ROOT
+============================== */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background: #ffffff;
+  color: #172b3a;
+  overflow-x: hidden;
+}
+
+/* ==============================
+   REACT ROOT
+============================== */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ==============================
+   HEADINGS
+============================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+/* ==============================
+   IMAGES
+============================== */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ==============================
+   BUTTONS AND LINKS
+============================== */
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ==============================
+   SELECTION
+============================== */
+
+::selection {
+  background: #e5a83b;
+  color: #102b46;
+}
